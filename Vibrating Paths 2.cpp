@@ -98,10 +98,6 @@ struct edge {
 	}
 };
 
-
-///==================================================================================
-
-
 void erase(vector<int> &v, int x){
 	auto it = find(ALL(v),x);
 	//assert(it!=end(v));

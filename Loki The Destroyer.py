@@ -27,6 +27,7 @@ for _ in range(int(input())):
 arr=[]
 visited=[False]*n
 
+
 for i in d:
     global dcount
     dcount = defaultdict(int)
